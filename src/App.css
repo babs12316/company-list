@@ -6,6 +6,52 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container{
+  margin-top: 5%;
+}
+
+.card{
+  width: 50%;
+    margin: auto;
+    padding: 5%;
+    color:#000;
+    margin-bottom: 5%;
+}
+.card:hover{
+  -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+}
+
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.pdate {
+  font-style: italic;
+  font-size: 14px;
+  padding: 5px;
+}
+.budget {
+  font-size: 15px;
+  padding: 5px;
+}
+.sbudget {
+  font-size: 15px;
+  padding: 5px;
+}
+.rbudget {
+  font-size: 15px;
+  padding: 5px;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.card span{
+  font-style: italic;
+  font-size: 13px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
