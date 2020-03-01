@@ -73,7 +73,7 @@ class CompanyDetail extends Component {
             <h6>Edit budget value</h6>
 
             <input
-              type="text"
+              type="number"
               value={this.state.budget}
               onChange={this.handleChange}
             ></input>
